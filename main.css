@@ -16,9 +16,23 @@ html {
 } /*16px*/
 
 :root {
+  /* Colors */
+  --primary-500: #645cff;
+  /* grey */
+  --black: #222;
+  --white: #fff;
+  /*From Bootstrap Library for Error and Success Alerts */
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+
+  /* Fonts */
   --headingFont: "Spectral", serif;
   --bodyFont: "Karla", sans-serif;
   --smallFont: 0.7em;
+
+  /* rest of the vars */
 }
 
 body {
@@ -69,7 +83,7 @@ h5 {
 }
 
 small,
-.text_small {
+.text-small {
   font-size: var(--smallFont);
 }
 
