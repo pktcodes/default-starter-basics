@@ -130,3 +130,20 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+.container {
+  width: 40vw;
+  max-width: var(--maxWidth);
+  border: 5px solid var(--primary-500);
+  border-radius: var(--borderRadius);
+}
+
+.img {
+  width: 100%;
+
+  /* To remove the space underneath the image */
+  display: block;
+
+  /* To prevent image distoration */
+  /* height: 40rem; */
+  object-fit: cover;
+}
