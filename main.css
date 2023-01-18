@@ -136,7 +136,6 @@ ul {
   border: 5px solid var(--primary-500);
   border-radius: var(--borderRadius);
 }
-
 .img {
   width: 100%;
 
@@ -146,4 +145,34 @@ ul {
   /* To prevent image distoration */
   /* height: 40rem; */
   object-fit: cover;
+}
+.btn {
+  color: var(--white);
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  padding: 0.375rem 0.75rem;
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  transition: var(--transition);
+  /* To respect vertical margins */
+  display: inline-block;
+
+  /* display: block;
+  width: 300px;
+  margin: auto; */
+}
+.btn:hover {
+  box-shadow: var(--shadow-3);
+  background: var(--primary-700);
+}
+.btn-hipster {
+  color: var(--primary-500);
+  background: var(--primary-200);
+}
+.btn-hipster:hover {
+  color: var(--primary-200);
+  background: var(--primary-700);
 }
