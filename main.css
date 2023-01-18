@@ -10,7 +10,7 @@ body {
 ::before {
   box-sizing: border-box;
 }
-
+/* Fonts */
 html {
   font-size: 100%;
 } /*16px*/
@@ -146,6 +146,8 @@ ul {
   /* height: 40rem; */
   object-fit: cover;
 }
+
+/* Buttons */
 .btn {
   color: var(--white);
   background: var(--primary-500);
@@ -176,6 +178,8 @@ ul {
   color: var(--primary-200);
   background: var(--primary-700);
 }
+
+/* Alerts */
 .alert {
   padding: 0.375rem 0.75rem;
   margin-bottom: 1rem;
